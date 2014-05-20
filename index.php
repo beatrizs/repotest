@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Page créé par Shepard [Fabian Pijcke] <Shepard8@laposte.net>
 // Arno Esterhuizen <arno.esterhuizen@gmail.com>
@@ -17,8 +17,9 @@ $wampConfFile = '../wampmanager.conf';
 $aliasDir = '../alias/';
 
 
+teste test
 
-// on charge le fichier de conf locale
+
 if (!is_file($wampConfFile))
     die ('Unable to open WampServer\'s config file, please change path in index.php file');
 //require $wampConfFile;
